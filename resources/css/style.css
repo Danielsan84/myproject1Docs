@@ -1,3 +1,19 @@
+
+
+* {
+  font-family: 'MatrixCode', monospace;
+  
+  
+  }
+
+
+
+
+body {
+  padding: 5px;
+}
+
+
 /* root per i colori */
 
 /* Definisci gli stili del sito per il tema blu */
@@ -58,10 +74,7 @@ body.black-theme {
 
   /* FINE THEME BUTTONS */
 
-* {
-    font-family: 'MatrixCode', monospace;
-    
-    }
+
 /* STILE NAVBAR */
 .navbar {
     background-color: #4c624b;
@@ -184,15 +197,44 @@ body.black-theme {
 
   /* INIZIO CSS DI HTML5 */
 
-  .descrHtml {
+  .descrHtml1 {
+    font-size: 13px;
+    color: rgb(168, 16, 16);
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background: linear-gradient(to top left, rgba(255, 17, 17, 0.712), rgba(85, 65, 65, 0.486), rgba(83, 74, 74, 0.712), rgba(23, 23, 23, 0.712));
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  }
+
+  .descrHtml2 {
     font-size: 12px;
-    color: rgb(255, 255, 255);
+    color: rgb(119, 101, 101);
     font-family: monospace;
     padding: 10px;
     margin: 10px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  }
+
+  .markTag {
+    background: linear-gradient(rgba(251, 142, 142, 0.712), rgba(255, 255, 255, 0.486), rgba(250, 148, 148, 0.712));
+    color: rgb(0, 0, 0);
+  }
+
+  .descrHtml3 {
+    font-size: 12px;
+    color: rgb(49, 157, 69);
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background: linear-gradient(to top left, rgba(17, 255, 45, 0.712), rgba(74, 248, 79, 0.486), rgba(74, 83, 75, 0.712), rgba(23, 23, 23, 0.712), rgba(0, 0, 0, 0.712));
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
   }
 
