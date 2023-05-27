@@ -54,5 +54,19 @@
         <button id="green-theme">Green Theme</button>
         <button id="blue-theme">Blue Theme</button>
     </div>
+
+    {{-- <audio src="{{ asset('media/rain-in-the-forest.wav') }}" autoplay loop></audio> --}}
+    <audio src="media/rain-in-the-forest.wav" controls></audio>
+
+<div id="audioControls">
+  <button id="playButton">Play</button>
+  <button id="pauseButton">Pause</button>
+  <button id="muteButton">Mute</button>
+  <button id="unmuteButton">Unmute</button>
+  <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+</div>
+
+    
+
   </nav>
   

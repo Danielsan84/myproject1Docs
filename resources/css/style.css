@@ -10,7 +10,7 @@
 
 
 body {
-  padding: 5px;
+  padding: 10px;
 }
 
 
@@ -237,6 +237,152 @@ body.black-theme {
     background: linear-gradient(to top left, rgba(17, 255, 45, 0.712), rgba(74, 248, 79, 0.486), rgba(74, 83, 75, 0.712), rgba(23, 23, 23, 0.712), rgba(0, 0, 0, 0.712));
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
   }
+  
+  .myDiv1 strong {
+       color: rgba(113, 238, 123, 0.551);
+  } 
+  /* .myDiv1 ul {
+    white-space: pre-wrap;
+  } 
 
+  .myDiv1 ul::after {
+    content: "\A";
+    white-space: pre;    
+  } */
+
+  .myDiv1 ul {
+    margin-bottom: 10px;
+  }
+  .myDiv1 li {
+    margin-bottom: 5px;
+  }
+  
+
+  
+  
+
+  .elencoTag1 {
+    font-size: 12px;
+    color: rgb(146, 148, 249);
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background: linear-gradient(to top left, rgba(17, 21, 255, 0.649), rgba(74, 77, 248, 0.486), rgba(74, 75, 83, 0.712), rgba(23, 23, 23, 0.712),  rgba(17, 21, 255, 0.649));
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+  }
+
+  .elencoTag1 li {
+    margin-bottom: 5px;
+    color: rgb(47, 96, 195);
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* INIZIO CSS DI CSS3 */
+
+  .selettori h6 {
+    color: rgba(255, 17, 17, 0.712);
+    font-weight: bold;    
+    
+  }
+
+
+
+/* 1 TABELLA tag html5*/
+
+
+
+  /* Colori */
+  :root {
+    --main-color: #00ffcc;
+    --background-color: #000;
+    --text-color: #fff;
+    --table-header-color: rgb(44, 64, 218);
+    --table-row-color: #333;
+    --textarea-color: #333;
+    --textarea-border-color: #f0f;
+}
+
+/* Stile generale */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile della tabella */
+.cyberpunk-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cyberpunk-table th,
+.cyberpunk-table td {
+    border: 1px solid var(--main-color);
+    padding: 10px;
+}
+
+.cyberpunk-table th {
+    background-color: var(--table-header-color);
+    text-align: left;
+}
+
+.cyberpunk-table td {
+    background-color: var(--table-row-color);
+}
+
+/* Stile del titolo della tabella */
+.table-heading {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Stile dell'esempio */
+.descr_esempio {
+    color: var(--main-color);
+}
+
+
+/* TEXT-AREA */
+.cyberpunk-textarea {
+  width: 50%;
+  background-color: var(--textarea-color);
+  border: 2px solid var(--textarea-border-color);
+  color: var(--text-color);
+  /* padding: 10px; */
+  box-sizing: border-box;
+  /* font-family: "Arial", sans-serif; */
+  /* font-size: 10px;
+  line-height: 1.5; */
+  resize: vertical;
+  /* Stile della scrollbar */
+ scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+ scrollbar-width: thin;
+
+}
+
+
+summary {
+  color: tomato;
+}
+
+  
   
   
