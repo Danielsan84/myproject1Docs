@@ -77,7 +77,7 @@ body.black-theme {
 
 /* STILE NAVBAR */
 .navbar {
-    background-color: #4c624b;
+    background-color: #516750;
     display: flex;
     /* justify-content: space-between; */ 
     /* align-items: center; */
@@ -119,7 +119,10 @@ body.black-theme {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+
+  .dropdown-menu {
+    background-color: #614c4c;
+  }
   .dropdown-content a {
     color: #333;
     padding: 12px 16px;
@@ -160,40 +163,140 @@ body.black-theme {
 
   /* STILE BODY */
 
+  /*  scritto h1  */
   
-.matrix-text-container3 h1 {
-    /* position: absolute; */
-    /* padding-left: 0px; */
-    padding-right: 40px;
+  .matrix-text-container3 p {  
     font-family: monospace;
-    /* font-size: 24px; */
-    color: rgb(146, 211, 146);
-    /* padding: 10px; */
-    width: 0;
+    color: #0f0;
+    font-size: 50px;
+    max-width: 250px;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid rgb(197, 255, 208);
-    animation: typing 5s steps(30) forwards, blink .4s step-end infinite alternate;
-   
-  }
-  .frase1 h1 {
-    animation-delay: 2s;
-       
-  }
-  
-   @keyframes typing {
-    from { width: 0 }
-    to { width:100% }
+    border-right: 3px solid rgb(255, 255, 255);   
+    animation: typing 5s steps(30) forwards, blink .5s step-end infinite alternate;
     
-  } 
+  }
+/* 
+  .frase1 {
+    
+  } */
+ 
+   
+   .matrix-text-container3 p::first-letter {
+    opacity: 0.5;
+    
+  }  
 
   
   
-  @keyframes blink {
-    from, to { border-color: transparent }   
-    50% { border-color: rgb(255, 254, 254) } 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
    
   }
+  
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 254, 254) }
+    
+  }
+
+
+/* css homepage */
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+
+/* Animazioni per gli elementi */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/* Animazione fadeIn */
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animazione fadeInUp */
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animazione fadeInDown */
+.animate__fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animazione fadeInLeft */
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animazione fadeInRight */
+.animate__fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+ 
+   
 
   /* INIZIO CSS DI HTML5 */
 

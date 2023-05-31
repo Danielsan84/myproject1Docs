@@ -62,6 +62,19 @@ document.addEventListener("DOMContentLoaded", function() {
  
 
 
+//  script animazione home page testo
+
+window.addEventListener('load', function() {
+  const elements = document.querySelectorAll('.animate__animated');
+  elements.forEach(function(element) {
+    element.style.visibility = 'hidden';
+  });
+  setTimeout(function() {
+    elements.forEach(function(element) {
+      element.style.visibility = 'visible';
+    });
+  }, 500);
+});
 
 
 

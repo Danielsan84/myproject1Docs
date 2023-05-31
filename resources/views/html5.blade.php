@@ -1,11 +1,11 @@
 <x-layout>
-    <div class="container-fluid p-3 text-center">
+    <div class="container-fluid p-5 text-center">
         <div class="row justify-content-center">
-            <div class="matrix-text-container3">
-                <div class="frase1">
-                    <h1 class="display-1">
-                        HTML5
-                    </h1>
+            <div class="col-6">
+                <div class="matrix-text-container3">
+                    <div class="frase1">
+                        <p>The HTML5</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -655,6 +655,29 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+                                                    <td><code>&lt;abbr&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag abbr serve per inserire un'abbreviazione.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag abbr:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <p>
+                                                                    <abbr title="World Health Organization">WHO</abbr>
+                                                                </p>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <p>
+                                                                <abbr title="World Health Organization">WHO</abbr>
+                                                            </p>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                     <td><code>&lt;del&gt;</code></td>
                                                     <td>
                                                         <p>Il tag del serve per inserire un testo barrato. Questo tag
@@ -1002,6 +1025,984 @@
                                                     </details>
                                                 </td>
                                                 </tr>
+                                                <tr>
+                                                    <td><code>&lt;figure&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag figure serve per inserire una figura.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag figure:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <figure>
+                                                                <img src="https://via.placeholder.com/150" alt="Placeholder">
+                                                                <figcaption>Fig.1 - Placeholder</figcaption>
+                                                            </figure>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <figure>
+                                                                <img src="https://via.placeholder.com/150" alt="Placeholder">
+                                                                <figcaption>Fig.1 - Placeholder</figcaption>
+                                                            </figure>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;figcaption&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag figcaption serve per inserire una didascalia.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag figcaption:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <figure>
+                                                                <img src="https://via.placeholder.com/150" alt="Placeholder">
+                                                                <figcaption>Fig.1 - Placeholder</figcaption>
+                                                            </figure>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <figure>
+                                                                <img src="https://via.placeholder.com/150" alt="Placeholder">
+                                                                <figcaption>Fig.1 - Placeholder</figcaption>
+                                                            </figure>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;picture&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag picture serve per inserire una immagine.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag picture:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <picture>
+                                                                <source srcset="https://via.placeholder.com/150" media="(min-width: 650px)">
+                                                                <source srcset="https://via.placeholder.com/100" media="(min-width: 465px)">
+                                                                <img src="https://via.placeholder.com/50" alt="Placeholder">
+                                                            </picture>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <picture>
+                                                                <source srcset="https://via.placeholder.com/150" media="(min-width: 650px)">
+                                                                <source srcset="https://via.placeholder.com/100" media="(min-width: 465px)">
+                                                                <img src="https://via.placeholder.com/50" alt="Placeholder">
+                                                            </picture>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;iframe&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag iframe serve per inserire una pagina web.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag iframe:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;embed&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag embed serve per inserire un contenuto multimediale.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag embed:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <embed src="https://www.w3schools.com" type="text/html">
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <embed src="https://www.w3schools.com" type="text/html">
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;object&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag object serve per inserire un oggetto.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag object:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <object data="https://www.w3schools.com" type="text/html">
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <object data="https://www.w3schools.com" type="text/html">
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;param&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag param serve per inserire un parametro.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag param:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <object data="https://www.w3schools.com" type="text/html">
+                                                                <param name="autoplay" value="true">
+                                                            </object>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <object data="https://www.w3schools.com" type="text/html">
+                                                                <param name="autoplay" value="true">
+                                                            </object>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;video&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag video serve per inserire un video.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag video:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <video width="320" height="240" controls>
+                                                                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                                                                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                                                                Your browser does not support the video tag.
+                                                            </video>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <video width="320" height="240" controls>
+                                                                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                                                                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+                                                                Your browser does not support the video tag.
+                                                            </video>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;audio&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag audio serve per inserire un audio.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag audio:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <audio controls>
+                                                                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                                                                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                                                                Your browser does not support the audio element.
+                                                            </audio>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <audio controls>
+                                                                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                                                                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                                                                Your browser does not support the audio element.
+                                                            </audio>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;source&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag source serve per inserire una sorgente.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag source:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <audio controls>
+                                                                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                                                                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                                                                Your browser does not support the audio element.
+                                                            </audio>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <audio controls>
+                                                                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                                                                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                                                                Your browser does not support the audio element.
+                                                            </audio>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;track&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag track serve per inserire una traccia con sottotitoli.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag track:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <audio controls>
+                                                                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                                                                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                                                                Your browser does not support the audio element.
+                                                                <track src="https://www.w3schools.com/html/movie.ogg" kind="captions" srclang="en" label="English">
+                                                            </audio>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <audio controls>
+                                                                <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                                                                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                                                                Your browser does not support the audio element.
+                                                                <track src="https://www.w3schools.com/html/movie.ogg" kind="captions" srclang="en" label="English">
+                                                            </audio>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;canvas&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag canvas serve per inserire un'area di disegno.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag canvas:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+                                                                Your browser does not support the HTML canvas tag.
+                                                            </canvas>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+                                                                Your browser does not support the HTML canvas tag.
+                                                            </canvas>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;svg&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag svg serve per inserire un'immagine vettoriale.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag svg:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <svg width="100" height="100">
+                                                                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                                                            </svg>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <svg width="100" height="100">
+                                                                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+                                                            </svg>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;math&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag math serve per inserire una formula matematica.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag math:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <math>
+                                                                <mrow>
+                                                                    <msup>
+                                                                        <mi>a</mi>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                    <mo>+</mo>
+                                                                    <msup>
+                                                                        <mi>b</mi>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                    <mo>=</mo>
+                                                                    <msup>
+                                                                        <mi>c</mi>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                </mrow>
+                                                            </math>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <math>
+                                                                <mrow>
+                                                                    <msup>
+                                                                        <mi>a</mi>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                    <mo>+</mo>
+                                                                    <msup>
+                                                                        <mi>b</mi>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                    <mo>=</mo>
+                                                                    <msup>
+                                                                        <mi>c</mi>
+                                                                        <mn>2</mn>
+                                                                    </msup>
+                                                                </mrow>
+                                                            </math>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <td><code>&lt;dialog&gt;</code></td>
+                                                <td>
+                                                    <p>Il tag dialog serve per inserire un dialogo.</p>
+                                                    <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                        del tag dialog:</span>
+                                                    <p></p>
+                                                    <details>
+                                                        <summary>Mostra text-area</summary>
+                                                        <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <dialog open>Il dialogo è aperto</dialog>
+                                                        </textarea>
+                                                    </details>
+                                                    <details>
+                                                        <summary>Mostra view</summary>
+                                                        <dialog open>Il dialogo è aperto</dialog>
+                                                    </details>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;template&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag template serve per inserire un template.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag template:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <template>
+                                                                <h2>Template</h2>
+                                                                <p>Questo è un template</p>
+                                                            </template>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <template>
+                                                                <h1>Esempio di utilizzo del tag &lt;template&gt;</h1>
+
+                                                              <template id="myTemplate">
+                                                                <p>Questo è un paragrafo all'interno del template.</p>
+                                                              </template>
+                                                            
+                                                              <button onclick="cloneTemplate()">Clona template</button>
+                                                            
+                                                              <script>
+                                                                function cloneTemplate() {
+                                                                  const template = document.getElementById("myTemplate");
+                                                                  const clone = template.content.cloneNode(true);
+                                                                  document.body.appendChild(clone);
+                                                                }
+                                                              </script>
+                                                            </template>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;slot&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag slot serve per inserire uno slot.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag slot:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <slot name="nome_slot"></slot>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <slot name="nome_slot"></slot>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;progress&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag progress serve per inserire una barra di avanzamento.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag progress:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <progress value="50" max="100"></progress>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <progress value="50" max="100"></progress>
+                                                        </details> 
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;meter&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag meter serve per inserire un indicatore di misura.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag meter:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <meter value="2" min="0" max="10">2 out of 10</meter>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <meter value="2" min="0" max="10">2 out of 10</meter>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;output&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag output serve per inserire un output.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag output:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <form oninput="result.value = parseInt(x.value) + parseInt(y.value)">
+                                                                    <label for="x">Primo numero:</label>
+                                                                    <input type="number" id="x" name="x" />
+                                                                
+                                                                    <label for="y">Secondo numero:</label>
+                                                                    <input type="number" id="y" name="y" />
+                                                                
+                                                                    <label for="result">Risultato:</label>
+                                                                    <output id="result" name="result"></output>
+                                                                  </form>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <form oninput="result.value = parseInt(x.value) + parseInt(y.value)">
+                                                                <label for="x">Primo numero:</label>
+                                                                <input type="number" id="x" name="x" />
+                                                            
+                                                                <label for="y">Secondo numero:</label>
+                                                                <input type="number" id="y" name="y" />
+                                                            
+                                                                <label for="result">Risultato:</label>
+                                                                <output id="result" name="result"></output>
+                                                              </form>
+                                                        </details>
+                                                    </td>
+                                                </tr>  
+                                                <tr>
+                                                    <td><code>&lt;var&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag var serve per inserire una variabile.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag var:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <p>Il valore di <var>x</var> è 5.</p>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <p>Il valore di <var>x</var> è 5.</p>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;kbd&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag kbd serve per inserire un tasto.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag kbd:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <p>Premi <kbd>Ctrl</kbd> + <kbd>C</kbd> per copiare il testo.</p>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <p>Premi <kbd>Ctrl</kbd> + <kbd>C</kbd> per copiare il testo.</p>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;samp&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag samp serve per inserire un esempio di codice.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag samp:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <p>Il risultato è <samp>5</samp>.</p>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <p>Il risultato è <samp>5</samp>.</p>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;bdo&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag bdo serve per inserire un testo bidirezionale.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag bdo:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <p>Questo è un testo normale.</p>
+                                                                <p><bdo dir="rtl">Questo è un testo bidirezionale.</bdo></p>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <p>Questo è un testo normale.</p>
+                                                            <p><bdo dir="rtl">Questo è un testo bidirezionale.</bdo></p>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;ruby&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag ruby serve per inserire un testo con annotazione.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag ruby:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <ruby>
+                                                                    漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                                                                    字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+                                                                </ruby>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <ruby>
+                                                                漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+                                                                字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+                                                            </ruby>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;wbr&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag wbr serve per inserire un punto di rottura.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag wbr:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <p>Questo è un testo normale.</p>
+                                                                <p>Questo è un testo con un punto di rottura <wbr />inserito.</p>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <p>Questo è un testo normale.</p>
+                                                            <p>Questo è un testo con un punto di rottura <wbr />inserito.</p>
+                                                        </details>                                                          
+                                                    </td>
+                                                </tr>
+                                                <td><code>&lt;datalist&gt;</code></td>
+                                                <td>
+                                                    <p>Il tag datalist serve per inserire una lista di opzioni.</p>
+                                                    <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                        del tag datalist:</span>
+                                                    <p></p>
+                                                    <details>
+                                                        <summary>Mostra text-area</summary>
+                                                        <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <label for="browser">Scegli un browser:</label>
+                                                            <input list="browsers" id="browser" name="browser" />
+                                                            <datalist id="browsers">
+                                                                <option value="Chrome">
+                                                                <option value="Firefox">
+                                                                <option value="Internet Explorer">
+                                                                <option value="Opera">
+                                                                <option value="Safari">
+                                                            </datalist>
+                                                    </textarea>
+                                                    </details>
+                                                    <details>
+                                                        <summary>Mostra view</summary>
+                                                        <label for="browser">Scegli un browser:</label>
+                                                        <input list="browsers" id="browser" name="browser" />
+                                                        <datalist id="browsers">
+                                                            <option value="Chrome">
+                                                            <option value="Firefox">
+                                                            <option value="Internet Explorer">
+                                                            <option value="Opera">
+                                                            <option value="Safari">
+                                                        </datalist>
+                                                    </details>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;map&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag map serve per inserire una mappa di immagine.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag map:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379" />
+                                                                <map name="workmap">
+                                                                    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" />
+                                                                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" />
+                                                                    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm" />
+                                                                </map>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379" />
+                                                            <map name="workmap">
+                                                                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" />
+                                                                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" />
+                                                                <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm" />
+                                                            </map>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;object&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag object serve per inserire un oggetto.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag object:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <object data="pic_mountain.jpg" type="image/jpg">
+                                                                    <param name="img" value="pic_mountain.jpg" />
+                                                                    <param name="type" value="image/jpg" />
+                                                                    <p>Backup image: <a href="pic_mountain.jpg">pic_mountain.jpg</a></p>
+                                                                </object>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <object data="pic_mountain.jpg" type="image/jpg">
+                                                                <param name="img" value="pic_mountain.jpg" />
+                                                                <param name="type" value="image/jpg" />
+                                                                <p>Backup image: <a href="pic_mountain.jpg">pic_mountain.jpg</a></p>
+                                                            </object>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;param&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag param serve per inserire un parametro.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag param:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <object data="pic_mountain.jpg" type="image/jpg">
+                                                                    <param name="img" value="pic_mountain.jpg" />
+                                                                    <param name="type" value="image/jpg" />
+                                                                    <p>Backup image: <a href="pic_mountain.jpg">pic_mountain.jpg</a></p>
+                                                                </object>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <object data="pic_mountain.jpg" type="image/jpg">
+                                                                <param name="img" value="pic_mountain.jpg" />
+                                                                <param name="type" value="image/jpg" />
+                                                                <p>Backup image: <a href="pic_mountain.jpg">pic_mountain.jpg</a></p>
+                                                            </object>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;fieldset&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag fieldset serve per inserire un gruppo di elementi.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag fieldset:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <form action="/action_page.php">
+                                                                    <fieldset>
+                                                                        <legend>Personalizza:</legend>
+                                                                        <label for="fname">First name:</label>
+                                                                        <input type="text" id="fname" name="fname" /><br /><br />
+                                                                        <label for="lname">Last name:</label>
+                                                                        <input type="text" id="lname" name="lname" /><br /><br />
+                                                                        <label for="email">Email:</label>
+                                                                        <input type="email" id="email" name="email" /><br /><br />
+                                                                        <label for="birthday">Birthday:</label>
+                                                                        <input type="date" id="birthday" name="birthday" /><br /><br />
+                                                                        <input type="submit" value="Submit" />
+                                                                    </fieldset>
+                                                                </form>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <form action="/action_page.php">
+                                                                <fieldset>
+                                                                    <legend>Personalizza:</legend>
+                                                                    <label for="fname">First name:</label>
+                                                                    <input type="text" id="fname" name="fname" /><br /><br />
+                                                                    <label for="lname">Last name:</label>
+                                                                    <input type="text" id="lname" name="lname" /><br /><br />
+                                                                    <label for="email">Email:</label>
+                                                                    <input type="email" id="email" name="email" /><br /><br />
+                                                                    <label for="birthday">Birthday:</label>
+                                                                    <input type="date" id="birthday" name="birthday" /><br /><br />
+                                                                    <input type="submit" value="Submit" />
+                                                                </fieldset>
+                                                            </form>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;legend&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag legend serve per inserire una legenda.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag legend:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <form action="/action_page.php">
+                                                                    <fieldset>
+                                                                        <legend>Personalizza:</legend>
+                                                                        <label for="fname">First name:</label>
+                                                                        <input type="text" id="fname" name="fname" /><br /><br />
+                                                                        <label for="lname">Last name:</label>
+                                                                        <input type="text" id="lname" name="lname" /><br /><br />
+                                                                        <label for="email">Email:</label>
+                                                                        <input type="email" id="email" name="email" /><br /><br />
+                                                                        <label for="birthday">Birthday:</label>
+                                                                        <input type="date" id="birthday" name="birthday" /><br /><br />
+                                                                        <input type="submit" value="Submit" />
+                                                                    </fieldset>
+                                                                </form>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <form action="/action_page.php">
+                                                                <fieldset>
+                                                                    <legend>Personalizza:</legend>
+                                                                    <label for="fname">First name:</label>
+                                                                    <input type="text" id="fname" name="fname" /><br /><br />
+                                                                    <label for="lname">Last name:</label>
+                                                                    <input type="text" id="lname" name="lname" /><br /><br />
+                                                                    <label for="email">Email:</label>
+                                                                    <input type="email" id="email" name="email" /><br /><br />
+                                                                    <label for="birthday">Birthday:</label>
+                                                                    <input type="date" id="birthday" name="birthday" /><br /><br />
+                                                                    <input type="submit" value="Submit" />
+                                                                </fieldset>
+                                                            </form>
+                                                        </details>
+                                                    </td> 
+                                                </tr>
+                                                <td><code>&lt;select&gt;</code></td>
+                                                <td>
+                                                    <p>Il tag select serve per inserire una lista a tendina.</p>
+                                                    <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                        del tag select:</span>
+                                                    <p></p>
+                                                    <details>
+                                                        <summary>Mostra text-area</summary>
+                                                        <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                            <form action="/action_page.php">
+                                                                <label for="cars">Choose a car:</label>
+                                                                <select name="cars" id="cars">
+                                                                    <option value="volvo">Volvo</option>
+                                                                    <option value="saab">Saab</option>
+                                                                    <option value="mercedes">Mercedes</option>
+                                                                    <option value="audi">Audi</option>
+                                                                </select>
+                                                                <input type="submit" value="Submit" />
+                                                            </form>
+                                                        </textarea>
+                                                    </details>
+                                                    <details>
+                                                        <summary>Mostra view</summary>
+                                                        <form action="/action_page.php">
+                                                            <label for="cars">Choose a car:</label>
+                                                            <select name="cars" id="cars">
+                                                                <option value="volvo">Volvo</option>
+                                                                <option value="saab">Saab</option>
+                                                                <option value="mercedes">Mercedes</option>
+                                                                <option value="audi">Audi</option>
+                                                            </select>
+                                                            <input type="submit" value="Submit" />
+                                                        </form>
+                                                    </details>
+                                                </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;optgroup&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag optgroup serve per inserire una lista a tendina
+                                                            raggruppata.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag optgroup:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <form action="/action_page.php">
+                                                                    <label for="cars">Choose a car:</label>
+                                                                    <select name="cars" id="cars">
+                                                                        <optgroup label="Swedish Cars">
+                                                                            <option value="volvo">Volvo</option>
+                                                                            <option value="saab">Saab</option>
+                                                                        </optgroup>
+                                                                        <optgroup label="German Cars">
+                                                                            <option value="mercedes">Mercedes</option>
+                                                                            <option value="audi">Audi</option>
+                                                                        </optgroup>
+                                                                    </select>
+                                                                    <input type="submit" value="Submit" />
+                                                                </form>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <form action="/action_page.php">
+                                                                <label for="cars">Choose a car:</label>
+                                                                <select name="cars" id="cars">
+                                                                    <optgroup label="Swedish Cars">
+                                                                        <option value="volvo">Volvo</option>
+                                                                        <option value="saab">Saab</option>
+                                                                    </optgroup>
+                                                                    <optgroup label="German Cars">
+                                                                        <option value="mercedes">Mercedes</option>
+                                                                        <option value="audi">Audi</option>
+                                                                    </optgroup>
+                                                                </select>
+                                                                <input type="submit" value="Submit" />
+                                                            </form>
+                                                        </details>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>&lt;option&gt;</code></td>
+                                                    <td>
+                                                        <p>Il tag option serve per inserire una opzione nella lista a
+                                                            tendina.</p>
+                                                        <span class="descr_esempio">In questo esempio si vede l'utilizzo
+                                                            del tag option:</span>
+                                                        <p></p>
+                                                        <details>
+                                                            <summary>Mostra text-area</summary>
+                                                            <textarea class="cyberpunk-textarea" rows="5" readonly>
+                                                                <form action="/action_page.php">
+                                                                    <label for="cars">Choose a car:</label>
+                                                                    <select name="cars" id="cars">
+                                                                        <option value="volvo">Volvo</option>
+                                                                        <option value="saab">Saab</option>
+                                                                        <option value="mercedes">Mercedes</option>
+                                                                        <option value="audi">Audi</option>
+                                                                    </select>
+                                                                    <input type="submit" value="Submit" />
+                                                                </form>
+                                                        </textarea>
+                                                        </details>
+                                                        <details>
+                                                            <summary>Mostra view</summary>
+                                                            <form action="/action_page.php">
+                                                                <label for="cars">Choose a car:</label>
+                                                                <select name="cars" id="cars">
+                                                                    <option value="volvo">Volvo</option>
+                                                                    <option value="saab">Saab</option>
+                                                                    <option value="mercedes">Mercedes</option>
+                                                                    <option value="audi">Audi</option>
+                                                                </select>
+                                                                <input type="submit" value="Submit" />
+                                                            </form>
+                                                        </details>
+                                                    </td>
+
+
+                                                    
+                                                   
+
+                                                
+                                                       
+
+                                                                                             
+                                                                                    
+
                                                 
 
 
