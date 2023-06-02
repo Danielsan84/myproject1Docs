@@ -77,6 +77,9 @@ window.addEventListener('load', function() {
 });
 
 
+// script animazione home page blink per stop
+
+  
 
   
 

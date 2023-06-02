@@ -4,6 +4,7 @@
   font-family: 'MatrixCode', monospace;
   
   
+  
   }
 
 
@@ -204,11 +205,12 @@ body.black-theme {
 
 /* css homepage */
 .profile-picture {
-  width: 100px;
-  height: 100px;
+ 
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
-  
+    
 }
 
 /* Animazioni per gli elementi */
